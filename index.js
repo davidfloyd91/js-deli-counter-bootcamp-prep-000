@@ -21,3 +21,9 @@ function takeANumber(katzDeliLine, name) {
   return message + array;
   }
 }
+
+function takeANumber(deliLine) {
+  var i = 0;
+  i++;
+  return i;
+}

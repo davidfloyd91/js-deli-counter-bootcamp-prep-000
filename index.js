@@ -26,6 +26,6 @@ var i = 0;
 
 function takeANumber(deliLine) {
   i++;
-  return i;
   deliLine.push(i);
+  return i;
 }

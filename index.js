@@ -22,8 +22,10 @@ function takeANumber(katzDeliLine, name) {
   }
 }
 
+var i = 0;
+
 function takeANumber(deliLine) {
-  var i = 0;
   i++;
   return i;
+  deliLine.push(i);
 }
